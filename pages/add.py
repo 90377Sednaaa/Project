@@ -33,4 +33,4 @@ if st.button("Add Ingredient"):
             st.metric("Total Value",
                       f"${new_ingredient.calculateTotalValue():.2f}")
 
-        # TODO: Save the to a database or file system
+        # TODO: Save sa database
