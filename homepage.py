@@ -10,8 +10,9 @@ pages = {
 
     "Menu": [
         st.Page("pages/add.py", title="Add Burger Ingredient", icon="➕"),
-        st.Page("pages/view.py", title="View Burger Ingredient", icon="👁️"),
         st.Page("pages/update.py", title="Update Burger Ingredient", icon="🔄"),
+        st.Page("pages/view.py", title="View Burger Ingredient", icon="👁️"),
+
     ],
 }
 
